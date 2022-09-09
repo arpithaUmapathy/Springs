@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        https://www.springframework.org/schema/context/spring-context.xsd">
+        <context:component-scan base-package="com.xworkz.tv"></context:component-scan>
+
+    <context:annotation-config/>
+	<!--   <bean class="com.xworkz.tv.TV"> 
+	 <constructor-arg name="brand" value="Sony" index="0"> </constructor-arg>
+		 <constructor-arg name="color" value="Balck" index="1"></constructor-arg>
+		 <constructor-arg name="price" value="20000.00D" index="2"></constructor-arg>
+		  <constructor-arg name="display" ref="d" index="3"></constructor-arg> 
+		<constructor-arg name="remote" ref="r" index="4"></constructor-arg>
+		 <constructor-arg name="setTopBox" ref="a" index="5"></constructor-arg> 
+		 <constructor-arg name="tvStand" ref="st" index="6"></constructor-arg> 
+		 </bean> 
+		 
+		 <bean class="com.xworkz.tv.Display" id="d"> 
+		 <constructor-arg name="price" value="1200.00D"></constructor-arg> 
+		<constructor-arg name="name" value="SonyDispaly"></constructor-arg>
+		 </bean> 
+		 
+		<bean class="com.xworkz.tv.Remote" id="r"> 
+		<constructor-arg name="name" value="SonyRemote"></constructor-arg> 
+		<constructor-arg name="price" value="500.00D"></constructor-arg>
+		 </bean> 
+		 
+		<bean class="com.xworkz.tv.SetTopBox" id="a">
+		 <constructor-arg name="name" value="SonySetupBox">
+		 </constructor-arg> <constructor-arg name="price" value="2000.00D"></constructor-arg> 
+		</bean> 
+		
+		<bean class="com.xworkz.tv.TVStand" id="st"> <constructor-arg name="name" 
+		value="SonyStand"></constructor-arg> <constructor-arg name="price" value="1000.00D"></constructor-arg> 
+		</bean>-->
+
+</beans>
